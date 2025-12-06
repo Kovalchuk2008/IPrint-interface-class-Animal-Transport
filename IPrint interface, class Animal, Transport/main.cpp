@@ -84,7 +84,7 @@ public:
 		color = c;
 		wing = w;
 	}
-	virtual void PrintColnsole()
+	virtual void PrintConsole()
 	{
 		cout << "Name: " << name << "Weight: " << weight << "Age: " << age << "Color: " << color << "Wings: " << wing << endl;
 	}
@@ -103,7 +103,7 @@ public:
 		size = s;
 		wool = w;
 	}
-	virtual void PrintColnsole()
+	virtual void PrintConsole()
 	{
 		cout << "Name: " << name << "Weight: " << weight << "Age: " << age << "Size: " << size << "Wool: " << endl;
 	}
